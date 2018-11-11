@@ -19,12 +19,12 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'songdeck_test_net'
 DESCRIPTION = 'used to test the Songdeck package (https://github.com/NickleDave/songdeck)'
-URL = 'https://github.com/NickleDave/SongdeckTestNet'
+URL = 'https://github.com/NickleDave/songdeck_test_net'
 EMAIL = 'dnicho4@emory.edu'
 AUTHOR = 'David Nicholson'
 REQUIRES_PYTHON = '>=3.5.0'
 VERSION = '0.1.1a1'
-LICENSE='BSD'
+LICENSE = 'BSD'
 
 REQUIRED = [
     'songdeck',
