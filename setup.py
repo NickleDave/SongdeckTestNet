@@ -19,7 +19,7 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'SongdeckTestNet'
 DESCRIPTION = 'used to test the Songdeck package (https://github.com/NickleDave/songdeck)'
-URL = 'https://github.com/yardencsGitHub/tweetynet'
+URL = 'https://github.com/NickleDave/SongdeckTestNet'
 EMAIL = 'dnicho4@emory.edu'
 AUTHOR = 'David Nicholson'
 REQUIRES_PYTHON = '>=3.5.0'
@@ -111,7 +111,7 @@ setup(
     packages=find_packages(where="src", exclude=('tests',)),
     package_dir={"": "src"},
     entry_points={
-        'songdeck.network': 'SongdeckTestNet = songdeck_test_net.model:SongdeckTestNet'
+        'songdeck.network': 'SongdeckTestNet = songdeck_test_net:SongdeckTestNet'
     },
     install_requires=REQUIRED,
     extras_require=EXTRAS,
