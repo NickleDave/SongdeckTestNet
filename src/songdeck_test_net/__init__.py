@@ -1,2 +1,1 @@
-from .model import TweetyNet
-
+from .network import SongdeckTestNet
