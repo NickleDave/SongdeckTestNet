@@ -17,7 +17,7 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'SongdeckTestNet'
+NAME = 'songdeck_test_net'
 DESCRIPTION = 'used to test the Songdeck package (https://github.com/NickleDave/songdeck)'
 URL = 'https://github.com/NickleDave/SongdeckTestNet'
 EMAIL = 'dnicho4@emory.edu'
