@@ -1,13 +1,13 @@
 import unittest
 import inspect
 
-import songdeck_test_net
+import vak_test_net
 import songdeck
 
 
 class TestSongdeckTestNet(unittest.TestCase):
     def setUp(self):
-        self.songdeck_test_net = songdeck_test_net.SongdeckTestNet()
+        self.songdeck_test_net = vak_test_net.SongdeckTestNet()
 
     def test_attribs(self):
         asn = songdeck.network.AbstractSongdeckNetwork()
