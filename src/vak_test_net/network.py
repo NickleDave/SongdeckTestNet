@@ -1,5 +1,5 @@
-from songdeck.network import AbstractSongdeckNetwork
+from vak.network import AbstractVakNetwork
 
 
-class SongdeckTestNet(AbstractSongdeckNetwork):
+class VakTestNet(AbstractVakNetwork):
     pass
