@@ -22,8 +22,8 @@ DESCRIPTION = 'used to test the vak library (https://github.com/NickleDave/vak)'
 URL = 'https://github.com/NickleDave/vak_test_net'
 EMAIL = 'dnicho4@emory.edu'
 AUTHOR = 'David Nicholson'
-REQUIRES_PYTHON = '>=3.5.0'
-VERSION = '0.1.1a1'
+REQUIRES_PYTHON = '>=3.6.0'
+VERSION = '0.1.1'
 LICENSE = 'BSD'
 
 REQUIRED = [
