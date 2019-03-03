@@ -1,1 +1,1 @@
-from .network import SongdeckTestNet
+from .network import VakTestNet
