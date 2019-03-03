@@ -17,9 +17,9 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'songdeck_test_net'
-DESCRIPTION = 'used to test the Songdeck package (https://github.com/NickleDave/songdeck)'
-URL = 'https://github.com/NickleDave/songdeck_test_net'
+NAME = 'vak_test_net'
+DESCRIPTION = 'used to test the vak library (https://github.com/NickleDave/vak)'
+URL = 'https://github.com/NickleDave/vak_test_net'
 EMAIL = 'dnicho4@emory.edu'
 AUTHOR = 'David Nicholson'
 REQUIRES_PYTHON = '>=3.5.0'
@@ -27,7 +27,7 @@ VERSION = '0.1.1a1'
 LICENSE = 'BSD'
 
 REQUIRED = [
-    'songdeck',
+    'vak',
 ]
 
 # What packages are optional?
@@ -111,7 +111,7 @@ setup(
     packages=find_packages(where="src", exclude=('tests',)),
     package_dir={"": "src"},
     entry_points={
-        'songdeck.network': 'SongdeckTestNet = songdeck_test_net:SongdeckTestNet'
+        'vak.network': 'VakTestNet = vak_test_net:VakTestNet'
     },
     install_requires=REQUIRED,
     extras_require=EXTRAS,
